@@ -1,0 +1,43 @@
+
+Feb 06, 2023 17:44:51.912 NEW SESSION
+Feb 06, 2023 17:44:51.912 [3692:23544:0206/174451.911:ERROR:device_event_log_impl.cc(215)] [17:44:51.911] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 06, 2023 17:45:49.863 [3692:14636:0206/174549.862:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Feb 07, 2023 12:17:53.396 NEW SESSION
+Feb 07, 2023 12:17:53.396 [20428:7840:0207/121753.395:ERROR:device_event_log_impl.cc(215)] [12:17:53.396] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 12:17:53.397 [20428:7840:0207/121753.395:ERROR:device_event_log_impl.cc(215)] [12:17:53.396] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 12:18:49.419 [20428:19896:0207/121849.418:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Feb 07, 2023 12:25:04.232 [16096:19896:0207/122504.232:ERROR:device_event_log_impl.cc(215)] [12:25:04.232] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 12:25:04.233 [16096:19896:0207/122504.232:ERROR:device_event_log_impl.cc(215)] [12:25:04.233] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 12:26:02.175 [16096:16728:0207/122602.174:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Feb 08, 2023 12:50:36.273 NEW SESSION
+Feb 08, 2023 12:50:36.273 [20168:25872:0208/125036.271:ERROR:device_event_log_impl.cc(215)] [12:50:36.272] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 08, 2023 12:50:36.273 [20168:25872:0208/125036.272:ERROR:device_event_log_impl.cc(215)] [12:50:36.272] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 08, 2023 12:51:33.855 [20168:25244:0208/125133.854:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Feb 08, 2023 13:02:03.309 [20168:25872:0208/130203.309:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Feb 08, 2023 19:24:56.60 NEW SESSION
+Feb 08, 2023 19:24:56.61 [22732:19600:0208/192456.059:ERROR:device_event_log_impl.cc(215)] [19:24:56.058] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 08, 2023 19:24:56.61 [22732:19600:0208/192456.059:ERROR:device_event_log_impl.cc(215)] [19:24:56.058] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 08, 2023 19:25:54.00 [22732:4992:0208/192553.999:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Feb 09, 2023 14:26:19.73 NEW SESSION
+Feb 09, 2023 14:26:19.73 [1472:28628:0209/142619.071:ERROR:device_event_log_impl.cc(215)] [14:26:19.072] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 14:26:19.73 [1472:28628:0209/142619.072:ERROR:device_event_log_impl.cc(215)] [14:26:19.073] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 14:27:17.70 [1472:27156:0209/142717.069:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Feb 09, 2023 14:27:49.144 [1472:28628:0209/142749.144:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Feb 09, 2023 16:52:27.397 NEW SESSION
+Feb 09, 2023 16:52:27.397 [4912:24152:0209/165227.396:ERROR:device_event_log_impl.cc(215)] [16:52:27.396] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 16:52:27.398 [4912:24152:0209/165227.396:ERROR:device_event_log_impl.cc(215)] [16:52:27.396] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 16:53:25.270 [4912:7792:0209/165325.269:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Feb 09, 2023 23:15:49.494 NEW SESSION
+Feb 09, 2023 23:15:49.494 [14316:24052:0209/231549.491:ERROR:device_event_log_impl.cc(215)] [23:15:49.492] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 23:15:49.495 [14316:24052:0209/231549.491:ERROR:device_event_log_impl.cc(215)] [23:15:49.492] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 09, 2023 23:16:47.507 [14316:8892:0209/231647.507:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+Feb 10, 2023 14:45:43.975 NEW SESSION
+Feb 10, 2023 14:45:43.976 [21320:17296:0210/144543.974:ERROR:device_event_log_impl.cc(215)] [14:45:43.974] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 10, 2023 14:45:43.976 [21320:17296:0210/144543.975:ERROR:device_event_log_impl.cc(215)] [14:45:43.975] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)

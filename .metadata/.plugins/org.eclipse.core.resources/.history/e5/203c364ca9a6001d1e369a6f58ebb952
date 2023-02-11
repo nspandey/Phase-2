@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Connect With Database</h1>
+
+<br>
+
+<br>
+
+<a href="connect">Connect With Database</a>
+
+<br>
+
+<h2>Create Record</h2>
+
+<form action="save" method="post">
+
+Product Name: <input type="text" name="pname" placeholder="Enter Product Name Here"><br><br>
+
+Product Price: <input type="text" name="pprice" placeholder="Enter Product Price Here"><br><br>
+
+<input type="submit" value="SAVE Details">
+
+
+</form>
+
+
+<br>
+<br>
+
+<h2>Retrive data</h2>
+<a href="fetch">Fetch Records</a>
+
+<br><br>
+
+<h2>Update Record</h2>
+
+<form action="update" method="post">
+Product id: <input type="text" name="pid" placeholder="Enter Product Id Here"><br><br>
+
+Product Name: <input type="text" name="pname" placeholder="Enter Product Name Here"><br><br>
+
+Product Price: <input type="text" name="pprice" placeholder="Enter Product Price Here"><br><br>
+
+<input type="submit" value="SAVE Details">
+</form>
+
+<br><br>
+
+<h2>Update Record</h2>
+
+<form action="delete" method="post">
+Product id: <input type="text" name="pid" placeholder="Enter Product Id Here"><br><br>
+
+
+
+<input type="submit" value="SAVE Details">
+</form>
+
+<br><br>
+
+<h2>Fatch Particular Record</h2>
+
+<form action="retrive" method="post">
+Product id: <input type="text" name="hid" placeholder="Enter Id here"><br><br>
+<input type="submit" value="Fetch Details">
+</form>
+
+</body>
+</html>

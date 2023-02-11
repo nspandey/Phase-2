@@ -1,0 +1,51 @@
+package com.simplilearn.com;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+@WebServlet("/init")
+public class initServlet extends HttpServlet{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter out=resp.getWriter();
+		
+		SessionFactory factory= HibernateUtil.getSessionFactory();
+		Session session=factory.openSession();
+		out.println("Hibernate Session Opened");
+		
+		Details s1=new Details();
+		s1.setName("King");
+		s1.setAadharcard("1234-5678-9101-1121");
+		s1.setPancard("1234");
+		s1.setAddress("banglore");
+		Transaction tx=session.beginTransaction();
+		session.save(s1);
+		tx.commit();
+		session.close();
+		
+		
+		out.println("Hibernate Session Closed");
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		doGet(req,resp);
+	}
+	
+}

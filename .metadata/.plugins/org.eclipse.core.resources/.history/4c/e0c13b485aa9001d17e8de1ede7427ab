@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- Scriplet -->
+<% out.print("Hello World"); %>
+<% 
+
+int a= 12;
+int b= 10;
+int c=a-b;
+out.print("Result is: "+c);
+
+%>
+
+<br>
+
+<!-- Expression -->
+
+<% String name="Nilesh Pandey"; %>
+<%="My Name is :" +name %>
+
+<!-- Declaration -->
+<br>
+<%! int cube(int n){
+  
+	return n*n*n;
+
+}
+%>
+<%="cube 5 is:" +cube(5) %>
+
+</body>
+</html>

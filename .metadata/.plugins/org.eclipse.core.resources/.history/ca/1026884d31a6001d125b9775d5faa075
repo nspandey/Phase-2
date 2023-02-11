@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<h1>HTTP Session</h1>
+<br>
+<br>
+
+<a href="login?userid=nileshpandey">Access With Http Session</a><br><br>
+
+
+<a href="dashboard">Access Without Http Session</a><br><br>
+
+<br>
+<br>
+
+<h2>Retrive data</h2>
+<a href="fetch">Fetch Records</a>
+
+</body>
+</html>
